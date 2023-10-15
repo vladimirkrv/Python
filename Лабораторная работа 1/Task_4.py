@@ -6,6 +6,8 @@ dictionary = {
     "Общее количество": 0,
     "Уникальные посещения": 0
 }
+
 dictionary["Общее количество"] = len(users)
 dictionary["Уникальные посещения"] = len(set(users))
+
 print(dictionary)
